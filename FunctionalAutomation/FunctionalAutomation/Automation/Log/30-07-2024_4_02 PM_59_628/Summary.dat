@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADkARAA4AEQANgA1ADIALQBDAEQARABCAC0ANAAzAEMAQgAtAEEAMgA0AEEALQBDADEAQQA5ADgAMgBFAEUAQwA4ADcAMwB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwMAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="name" type="S" value="KT-T67_Error_For_request_without_Medicare_number"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="119739"/>
+						<Prp name="duration" type="I" value="119739"/>
+						<Prp name="starttime" type="D" value="45503.6688401852"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="Automation"/>
+				<Prp name="duration" type="I" value="119739"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45503.6688401852"/>
+				<Prp name="failedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="name" type="S" value="FunctionalAutomation"/>
+		<Prp name="stop" type="D" value="45503.6702272917"/>
+		<Prp name="user" type="S" value="radheshyamp"/>
+		<Prp name="host" type="S" value="RADHESHYAMP-W11"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="testname" type="S" value="KT_T67_Error_For_request_without_Medicare_number"/>
+		<Prp name="key" type="S" value="{0DBD6D09-964D-45CA-8230-7478A6B8537E}"/>
+		<Prp name="starttime" type="D" value="45503.668760706"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+	</Node>
+</Nodes>

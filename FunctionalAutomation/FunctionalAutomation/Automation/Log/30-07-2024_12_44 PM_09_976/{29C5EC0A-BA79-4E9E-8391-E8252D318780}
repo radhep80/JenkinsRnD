@@ -1,0 +1,1660 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="92"/>
+			<Prp name="unit id" type="I" value="6"/>
+			<Prp name="stacktext" type="S" value="registerRequestPrecondition"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="unit id" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value="getOkOrCancelButtonOnRequestDeatilsPopUp"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="94"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5310965972"/>
+			<Prp name="remarks" type="S" value="'Female' was sent as a keyboard input to an active window."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="stack beginning" type="I" value="51"/>
+			<Prp name="message" type="S" value="Illegal invocation"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="51"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314594213"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 41">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="item 44">
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="message" type="S" value="Actual text &quot;+ ADD PATIENT&quot; equals expected text &quot;+ ADD PATIENT&quot;."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5310463889"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="stack beginning" type="I" value="42"/>
+			<Prp name="message" type="S" value="The object does not exist. See Details for additional information."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="44"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314582639"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Text&quot; method or property of an object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="stack beginning" type="I" value="33"/>
+			<Prp name="message" type="S" value="The object &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject.WPFObject.WPFObject&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="35"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314193519"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject.WPFObject.WPFObject&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="message" type="S" value=" AUID value enterd successfully : 69776665"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="513"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5311546528"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="stack beginning" type="I" value="16"/>
+			<Prp name="message" type="S" value="The object &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;).VCLObject.Window.Window&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="17"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="121"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5312955208"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Click&quot; method or property of the &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;).VCLObject.Window.Window&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="stack beginning" type="I" value="14"/>
+			<Prp name="message" type="S" value="The object &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;).VCLObject.Window.Window&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="15"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="120"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5312951389"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WaitProperty&quot; method or property of the &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;).VCLObject.Window.Window&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 45">
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="verifyText"/>
+		</Node>
+		<Node name="item 24">
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="getPatientJacket"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="message" type="S" value="D:\AutomationLatestCode\30July\Karisma4-Test-Scripts\FunctionalAutomation\FunctionalAutomation\Automation\Data\AddPatient.xlsx"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5311728588"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="getPatientJacket"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3016198727"/>
+					<Prp name="object left" type="I" value="948"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;UniformGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3)"/>
+					<Prp name="click point y" type="I" value="174"/>
+					<Prp name="click point x" type="I" value="1106"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="249"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object top" type="I" value="100"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object right" type="I" value="1264"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5308281829"/>
+			<Prp name="remarks" type="S" value="A click at point (158, 74) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;UniformGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="message" type="S" value="Patient Addressline1 pune,ALBANY PO"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="306"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5311581944"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="D:\AutomationLatestCode\30July\Karisma4-Test-Scripts\FunctionalAutomation\FunctionalAutomation\Automation\Data\AddPatient.xlsx"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5307655903"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 59">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3023834259"/>
+					<Prp name="object left" type="I" value="574"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfButton&quot;, &quot;&quot;, 5)"/>
+					<Prp name="click point y" type="I" value="34"/>
+					<Prp name="click point x" type="I" value="610"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="71"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="object top" type="I" value="-2"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object right" type="I" value="647"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5315525231"/>
+			<Prp name="remarks" type="S" value="A click at point (36, 36) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfButton&quot;, &quot;&quot;, 5)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="OHVO0MARKS, Pz72umarks"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5307776736"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 40">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="waitForVisibilityOfPatientJacket"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="getPatientJacket"/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="stack beginning" type="I" value="45"/>
+			<Prp name="message" type="S" value="The object &quot;Text&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="47"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314587269"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Equals&quot; method or property of the &quot;Text&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 47">
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="stack beginning" type="I" value="36"/>
+			<Prp name="message" type="S" value="The object &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject.WPFObject.WPFObject.WPFObject&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="38"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314208565"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject.WPFObject.WPFObject.WPFObject&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 22">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="waitForVisibilityOfPatientJacket"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="message" type="S" value="Patient Addressline1 pune,ALBANY PO"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="306"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5311722106"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="stack beginning" type="I" value="27"/>
+			<Prp name="message" type="S" value="The object &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="29"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314183102"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 39">
+			<Prp name="stack beginning" type="I" value="11"/>
+			<Prp name="message" type="S" value="The object &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;).VCLObject.Window&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="13"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5312945718"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Window&quot; method or property of the &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;).VCLObject.Window&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 42">
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="verifyText"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="message" type="S" value="The object &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;).VCLObject&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="10"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5312941551"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Window&quot; method or property of the &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;).VCLObject&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 29">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3019681597"/>
+					<Prp name="object left" type="I" value="154"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 5).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="513"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="76"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object right" type="I" value="203"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="76"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311367593"/>
+			<Prp name="remarks" type="S" value="'1994' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 5).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 31">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="waitForVisibilityOfPatientJacket"/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="line no" type="I" value="119"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="clickOnOkOrCancelButtonOnServiceRequest"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3018396528"/>
+					<Prp name="object left" type="I" value="14"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfDock&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfDockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="125"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object right" type="I" value="278"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5310117245"/>
+			<Prp name="remarks" type="S" value="'EYC8GMARKS, MSH8omarks' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfDock&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfDockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="message" type="S" value="Sex Assigned At Birth value selected successfully: Female"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="97"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5311208912"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3019949306"/>
+					<Prp name="object left" type="I" value="711"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="630"/>
+					<Prp name="click point x" type="I" value="862"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="641"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="298"/>
+					<Prp name="object top" type="I" value="620"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object right" type="I" value="1013"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="298"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311631366"/>
+			<Prp name="remarks" type="S" value="A click at point (151, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3019843981"/>
+					<Prp name="object left" type="I" value="348"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="635"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="512"/>
+					<Prp name="object top" type="I" value="614"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object right" type="I" value="610"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="512"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311541782"/>
+			<Prp name="remarks" type="S" value="'69776665' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.301974213"/>
+					<Prp name="object left" type="I" value="684"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="331"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="273"/>
+					<Prp name="object top" type="I" value="310"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object right" type="I" value="856"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="273"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311445718"/>
+			<Prp name="remarks" type="S" value="'0795641482' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="message" type="S" value="PG_Add_Patient.setIdentifierValue is not a function"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="92"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5311744907"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 49">
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="validateReciveRequestText"/>
+		</Node>
+		<Node name="item 30">
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="getPatientJacket"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="getPatientJacket"/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="300"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311721181"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to an active window."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="stack beginning" type="I" value="24"/>
+			<Prp name="message" type="S" value="The object &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="26"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.531417037"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="unit id" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value="getOkOrCancelButtonOnRequestDeatilsPopUp"/>
+		</Node>
+		<Node name="item 38">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="item 36">
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="getPatientJacket"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="message" type="S" value="Successfully clicked on the button: WPFObject(&quot;Run&quot;, &quot;+ ADD PATIENT&quot;, 1)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="68"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5310822222"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="message" type="S" value="Date of Birth 27/03/1994 entered succesfully."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="81"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5311374769"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 35">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3019574884"/>
+					<Prp name="object left" type="I" value="82"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="502"/>
+					<Prp name="click point x" type="I" value="97"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="513"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="61"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object right" type="I" value="113"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="61"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311253704"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="stack beginning" type="I" value="30"/>
+			<Prp name="message" type="S" value="The object &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject.WPFObject&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="32"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314187732"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject.WPFObject&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3019823148"/>
+					<Prp name="object left" type="I" value="348"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="624"/>
+					<Prp name="click point x" type="I" value="479"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="635"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="511"/>
+					<Prp name="object top" type="I" value="614"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object right" type="I" value="610"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="511"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311501389"/>
+			<Prp name="remarks" type="S" value="A click at point (131, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3019252546"/>
+					<Prp name="object left" type="I" value="354"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBlock&quot;, &quot;(none)&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="502"/>
+					<Prp name="click point x" type="I" value="469"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="513"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="93"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object right" type="I" value="584"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="93"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5310932986"/>
+			<Prp name="remarks" type="S" value="A click at point (115, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBlock&quot;, &quot;(none)&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="message" type="S" value="Successfully clicked on button with name: Unprotect"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5310880093"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="message" type="S" value="The object &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5312937616"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;VCLObject&quot; method or property of the &quot;VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;)&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 37">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="waitForVisibilityOfPatientJacket"/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="message" type="S" value="KT-T66"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.531459537"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="message" type="S" value="{&quot;projectKey&quot;: &quot;KT&quot;, &quot;testCycleKey&quot;: &quot;undefined&quot;,&quot;testCaseKey&quot;: &quot;KT-T66&quot;,&quot;statusName&quot;: &quot;Fail&quot;,&quot;comment&quot;: &quot;&quot;}"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="77"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5314603472"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 34">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="waitForVisibilityOfPatientJacket"/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="message" type="S" value="Text set in the TextBox: EYC8GMARKS, MSH8omarks"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5310124074"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 33">
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="stacktext" type="S" value="getPatientJacket"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3018814699"/>
+					<Prp name="object left" type="I" value="16"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfFlow&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfFlowItemsControl&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfFlowItemContainer&quot;, &quot;&quot;, 2).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBlock&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="177"/>
+					<Prp name="click point x" type="I" value="190"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="188"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="67"/>
+					<Prp name="object top" type="I" value="167"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object right" type="I" value="365"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="67"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5310493634"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfFlow&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfFlowItemsControl&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfFlowItemContainer&quot;, &quot;&quot;, 2).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Button&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBlock&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="299"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.531170162"/>
+			<Prp name="remarks" type="S" value="'ALBANY PO' was sent as a keyboard input to an active window."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="message" type="S" value="Successfully clicked on the menu item: Reception"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5308352315"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="line no" type="I" value="119"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="clickOnOkOrCancelButtonOnServiceRequest"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="message" type="S" value="D:\AutomationLatestCode\30July\Karisma4-Test-Scripts\FunctionalAutomation\FunctionalAutomation\Automation\Data\AddPatient.xlsx"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.530770544"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="message" type="S" value="Successfully clicked on the button: Ok"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5312955556"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3019195486"/>
+					<Prp name="object left" type="I" value="1612"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4)"/>
+					<Prp name="click point y" type="I" value="171"/>
+					<Prp name="click point x" type="I" value="1652"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="215"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="128"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object right" type="I" value="1693"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5310873495"/>
+			<Prp name="remarks" type="S" value="A click at point (40, 43) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 51">
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="message" type="S" value="Successfully entered contact number : 0795641482"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="274"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5311450694"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 32">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3019596065"/>
+					<Prp name="object left" type="I" value="82"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="513"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="62"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object right" type="I" value="113"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="62"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311278009"/>
+			<Prp name="remarks" type="S" value="'27' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3017985069"/>
+					<Prp name="object left" type="I" value="14"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfDock&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfDockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="103"/>
+					<Prp name="click point x" type="I" value="146"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="125"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object top" type="I" value="82"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object right" type="I" value="278"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.530966412"/>
+			<Prp name="remarks" type="S" value="A click at point (132, 21) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfDock&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfDockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="unit id" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value="getOkOrCancelButtonOnRequestDeatilsPopUp"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="line no" type="I" value="121"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="clickOnOkOrCancelButtonOnServiceRequest"/>
+		</Node>
+		<Node name="item 46">
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="validateReciveRequestText"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="96"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311208681"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to an active window."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="line no" type="I" value="119"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="clickOnOkOrCancelButtonOnServiceRequest"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="message" type="S" value="Test case: KT-T66_Request_for_patient_with_Medicare_number"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5307809143"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="unit id" type="I" value="7"/>
+			<Prp name="stacktext" type="S" value="getOkOrCancelButtonOnRequestDeatilsPopUp"/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="message" type="S" value="Sending the 'POST' request to 'https://api.zephyrscale.smartbear.com/v2/testexecutions'."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="78"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.531460463"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="waitForVisibilityOfPatientJacket"/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="waitForVisibilityOfPatientJacket"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="45503.3019640394"/>
+					<Prp name="object left" type="I" value="118"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="513"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="69"/>
+					<Prp name="object top" type="I" value="492"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object right" type="I" value="149"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="69"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5311321065"/>
+			<Prp name="remarks" type="S" value="'03' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScroll&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfScrollViewer&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 4).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;StackPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;TextBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="stack beginning" type="I" value="39"/>
+			<Prp name="message" type="S" value="The object &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject.WPFObject.WPFObject.WPFObject.WPFObject&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="41"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314212153"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;FindChildEx&quot; method or property of the &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject.WPFObject.WPFObject.WPFObject.WPFObject.WPFObject&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="119"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="clickOnOkOrCancelButtonOnServiceRequest"/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="stack beginning" type="I" value="21"/>
+			<Prp name="message" type="S" value="The object &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1)&quot; does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="23"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314155324"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;WPFObject&quot; method or property of the &quot;WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1)&quot; object that does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="message" type="S" value="The 'POST' request to 'https://api.zephyrscale.smartbear.com/v2/testexecutions' was sent with the status code 400."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="78"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45503.5314742593"/>
+			<Prp name="remarks" type="S" value="Response status text: Bad Request&#xA;&#xA;Response body:&#xA;{&quot;errorCode&quot;:400,&quot;message&quot;:&quot;createTestExecution.testCycleKey: must match \&quot;([0-9]+)|(.+-R[0-9]+)\&quot;&quot;,&quot;status&quot;:&quot;Bad Request&quot;}&#xA;&#xA;All response headers:&#xA;Connection: keep-alive&#xA;Date: Tue, 30 Jul 2024 07:15:19 GMT&#xA;Content-Length: 123&#xA;Content-Type: application/json&#xA;Strict-Transport-Security: max-age=31536000; includeSubDomains&#xA;&#xA;"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="stack beginning" type="I" value="18"/>
+			<Prp name="message" type="S" value="Unable to find the object WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1). See Details for additional information."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="20"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314150694"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The object with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2202&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Sys.Process(&quot;KarismaClient&quot;).WPFObject(&quot;HwndSource: WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;WpfWindow&quot;, &quot;Karisma&quot;, 1).WPFObject(&quot;Border&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ModalityWpfGrid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;ContentPresenter&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;DockPanel&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 3).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 2).WPFObject(&quot;WpfNative&quot;, &quot;&quot;, 1)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="message" type="S" value="D:\AutomationLatestCode\30July\Karisma4-Test-Scripts\FunctionalAutomation\FunctionalAutomation\Automation\Data\AddServices.xlsx"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45503.5307787384"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 2" type="S" value="{A821A3D1-C758-445B-99AC-137F657F5093}"/>
+			<Prp name="unit 4" type="S" value="{7594036A-E0D9-4BEE-8F9C-3A238760F79C}"/>
+			<Prp name="unit 11" type="S" value="{09A954C0-587F-4964-AFF1-0FD3083F5B46}"/>
+			<Prp name="unit 1" type="S" value="{F9CD42DC-2441-4EAF-A900-3ABDAE13E85A}"/>
+			<Prp name="unit 12" type="S" value="{75C536A6-F0F1-4EA7-87CC-FF03DCFF1458}"/>
+			<Prp name="unit 8" type="S" value="{1F42FD64-A89B-4F51-AB07-97E831FBDDF4}"/>
+			<Prp name="unit 6" type="S" value="{B4A0F7B3-34FC-4E90-88DA-EF5BFDE5E22F}"/>
+			<Prp name="unit 7" type="S" value="{5CFA8592-5F9C-4318-A9D7-43A2FCA87027}"/>
+			<Prp name="unit 9" type="S" value="{45BD41B6-61E9-4070-9F94-DF8389453C08}"/>
+			<Prp name="unit 0" type="S" value="{7EE49E8F-6AA4-4BDE-A542-D155C55A5863}"/>
+			<Prp name="unit 10" type="S" value="{718D1EA1-6A11-4160-8005-8F2DE3201EBF}"/>
+			<Prp name="unit 3" type="S" value="{048A06EB-3A8B-4DA5-A83C-D13A8B82F613}"/>
+			<Prp name="unit 13" type="S" value="{561BB759-1139-45B1-AAC2-FA053E6955C7}"/>
+			<Prp name="unit 5" type="S" value="{DE461018-D3B8-4C1B-B4F2-248B883A934C}"/>
+		</Node>
+		<Node name="item 43">
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="validateReciveRequestText"/>
+		</Node>
+		<Node name="item 39">
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="unit id" type="I" value="11"/>
+			<Prp name="stacktext" type="S" value="waitforControl"/>
+		</Node>
+		<Node name="item 28">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="10"/>
+			<Prp name="stacktext" type="S" value="waitForVisibilityOfPatientJacket"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="message" type="S" value="Unable to find the object VCLObject(&quot;TKarismaConsoleProperty_RequestRecord&quot;). See Details for additional information."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5312923032"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The object with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2202&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Sys.Process(&quot;KarismaClient&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="stack beginning" type="I" value="48"/>
+			<Prp name="message" type="S" value="An error occurred while executing verifyText: Illegal invocation"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack end" type="I" value="50"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45503.5314590741"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 50">
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		</Node>
+		<Node name="item 48">
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="verifyText"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="line no" type="I" value="120"/>
+			<Prp name="unit id" type="I" value="8"/>
+			<Prp name="stacktext" type="S" value="clickOnOkOrCancelButtonOnServiceRequest"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

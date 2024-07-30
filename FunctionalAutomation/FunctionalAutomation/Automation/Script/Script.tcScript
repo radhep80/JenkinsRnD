@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Pages">
+			<folder name="Reception">
+				<folder name="Add_Patient">
+					<child name="PG_Add_Patient_Functions" key="{DE461018-D3B8-4C1B-B4F2-248B883A934C}" path="PG_Add_Patient_Functions.js" />
+					<child name="PG_Add_Patient_Locators" key="{CB7AA2C7-4958-4D72-80D7-E711710E66E7}" path="PG_Add_Patient_Locators.js" />
+				</folder>
+				<folder name="Search_Patient" />
+				<folder name="PatientDialog">
+					<child name="PG_Patient_Dialog_Functions" key="{048A06EB-3A8B-4DA5-A83C-D13A8B82F613}" path="PG_Patient_Dialog_Functions.js" />
+					<child name="PG_Patient_Dialog_Locators" key="{44E181FD-864D-42C4-8125-E436CE5FA989}" path="PG_Patient_Dialog_Locators.js" />
+				</folder>
+				<folder name="PatientJacket">
+					<child name="PG_Patient_Jacket_Functions" key="{718D1EA1-6A11-4160-8005-8F2DE3201EBF}" path="PG_Patient_Jacket_Functions.js" />
+					<child name="PG_Patient_Jacket_Locators" key="{45BD41B6-61E9-4070-9F94-DF8389453C08}" path="PG_Patient_Jacket_Locators.js" />
+				</folder>
+				<folder name="Requests">
+					<child name="PG_Patient_Request_Functions" key="{1F42FD64-A89B-4F51-AB07-97E831FBDDF4}" path="PG_Patient_Request_Functions.js" />
+					<child name="PG_Patient_Request_Locators" key="{5CFA8592-5F9C-4318-A9D7-43A2FCA87027}" path="PG_Patient_Request_Locators.js" />
+				</folder>
+				<folder name="RequestJacket">
+					<child name="PG_Request_Jacket_Functions" key="{39409C1E-94B0-47E1-8B51-B5FC37756E1D}" path="PG_Request_Jacket_Functions.js" />
+					<child name="PG_Request_Jacket_Locators" key="{49DEE293-7EED-4896-9752-C1F573E27F29}" path="PG_Request_Jacket_Locators.js" />
+				</folder>
+				<folder name="Filtering">
+					<child name="PG_Filtering_Locators" key="{55592E42-1050-475D-B495-261FE90B7880}" path="PG_Filtering_Locators.js" />
+					<child name="PG_Filtering_Functions" key="{DE731EB8-0B8A-4647-8C62-D17484F0DB62}" path="PG_Filtering_Functions.js" />
+				</folder>
+			</folder>
+			<folder name="Login">
+				<child name="PG_Login_Locators" key="{30F08F51-6A78-4BFE-BA06-0AD983DB2780}" path="PG_Login_Locators.js" />
+				<child name="PG_Login_Functions" key="{1DB1FFEB-F37E-4BD8-A4C7-4B6C9B9C430A}" path="PG_Login_Functions.js" />
+			</folder>
+			<folder name="Main">
+				<child name="PG_Main_Locators" key="{561BB759-1139-45B1-AAC2-FA053E6955C7}" path="PG_Main_Locators.js" />
+				<child name="PG_Main_Functions" key="{6E172383-47AA-4A0A-920E-DED2EFC7BF6B}" path="PG_Main_Functions.js" />
+				<child name="PG_HomePage_Functions" key="{A821A3D1-C758-445B-99AC-137F657F5093}" path="PG_HomePage_Functions.js" />
+				<child name="PG_HomePage_Locators" key="{0A41DC58-DC5E-4E6D-B62D-8FD8E0E89CA9}" path="PG_HomePage_Locators.js" />
+			</folder>
+			<folder name="DataManagement">
+				<folder name="Delete_Patient">
+					<child name="PG_Delete_Patient_Locators" key="{6698639D-3946-4808-BFBE-C252454537BE}" path="PG_Delete_Patient_Locators.js" />
+					<child name="PG_Delete_Patient_Functions" key="{98BF9904-F686-4366-90DB-D8AD4F32EC71}" path="PG_Delete_Patient_Functions.js" />
+				</folder>
+			</folder>
+		</folder>
+		<folder name="TestScripts">
+			<folder name="Login">
+				<child name="TS_Login" key="{6770865E-2456-4923-A78D-12EBF2985C1A}" path="TS_Login.js" />
+				<child name="TS_LoginV1" key="{1F40C5A6-19B1-42FD-9289-D2AA64C8AB44}" path="TS_LoginV1.js" />
+			</folder>
+			<folder name="Reception">
+				<folder name="AddPatient">
+					<child name="KT_T11_Add__patient__including__a_General_Note" key="{52E4A618-17AB-4903-B30F-B376624D358F}" path="KT_T11_Add__patient__including__a_General_Note.js" />
+					<child name="KT_T16_Add_a_new_patient_using_two_contacts" key="{52EBB077-8AA5-4793-9FB9-56E726CF6E45}" path="KT_T16_Add_a_new_patient_using_two_contacts.js" />
+					<child name="KT_T19_Add_a_new_patient_using_two_allergies" key="{CB197DD9-627D-4F35-A824-4D8C0EA39D09}" path="KT_T19_Add_a_new_patient_using_two_allergies.js" />
+					<child name="KT_T18_Add_a_new_patient_using_two_conditions" key="{5102D0B4-AD2B-46E2-ADB8-77A87F927F42}" path="KT_T18_Add_a_new_patient_using_two_conditions.js" />
+					<child name="KT_T17_Add_a_new_patient_using_health_fund_details" key="{EC72C1AF-0566-45A6-9A99-C0B666D0C5D7}" path="KT_T17_Add_a_new_patient_using_health_fund_details.js" />
+					<child name="KT_T21_Add_a_new_patient_including_two_addresses" key="{9E20A0C8-CFF4-4E73-922F-74F40756E234}" path="KT_T21_Add_a_new_patient_including_two_addresses.js" />
+					<child name="KT_T15_Add_a_new__patient_using_two_identifiers" key="{0406BE91-E2FD-4BF6-A9AE-DF20564E60C1}" path="KT_T15_Add_a_new__patient_using_two_identifiers.js" />
+					<child name="KT_T12_Add_patient_using_Insert_Note_template" key="{4E2C9584-A8D7-4E3D-B663-27DE3C53AD55}" path="KT_T12_Add_patient_using_Insert_Note_template.js" />
+					<child name="KT_T14_Add_patient_including_a_Registration_Note" key="{3A6A92EF-EC47-4874-B60D-5796FF9B09C9}" path="KT_T14_Add_patient_including_a_Registration_Note.js" />
+					<child name="KT_T13_Add_patient_Medical_Alert_Note_using_Paste_option" key="{B20A28A3-59A5-4397-B8B8-7E47F3E225DD}" path="KT_T13_Add_patient_Medical_Alert_Note_using_Paste_option.js" />
+					<child name="KT_T20_Add_a_new_patient_using_two_next_of_Kin" key="{CC98042F-A93A-46BC-A682-80B7B4227A7A}" path="KT_T20_Add_a_new_patient_using_two_next_of_Kin.js" />
+					<child name="KT_T158_Add_a_patient_without_viewing_similar_patients" key="{F830930B-5C82-49BC-B363-7182110B3802}" path="KT_T158_Add_a_patient_without_viewing_similar_patients.js" />
+					<child name="KT_T22_Add_patient_by_viewing_similar_patients" key="{0EA299FA-D550-452D-8676-1DBA7A5101E4}" path="KT_T22_Add_patient_by_viewing_similar_patients.js" />
+				</folder>
+				<folder name="PatientSearch">
+					<child name="KT_T10_Patient_link_active" key="{C165E4EF-709D-46AC-9449-0BAC66FD94E1}" path="KT_T10_Patient_link_active.js" />
+					<child name="KT_T2_Search_by_slash_separator" key="{3D3525DD-896B-4667-8FA6-E7A882AF1D09}" path="KT_T2_Search_by_slash_separator.js" />
+					<child name="KT_T3_Search_by_space_separator" key="{9CEED813-6827-43DE-AAA7-FE9CE5D12E97}" path="KT_T3_Search_by_space_separator.js" />
+					<child name="KT_T4_Search_by_partial_name_by_comma" key="{CB11DDFE-38BD-42AB-AAF5-9F3A85FE78E1}" path="KT_T4_Search_by_partial_name_by_comma.js" />
+					<child name="KT_T5_Search_by_partial_name_by_slash_operator" key="{98455243-9151-4885-8FAB-E01967D531E9}" path="KT_T5_Search_by_partial_name_by_slash_operator.js" />
+					<child name="KT_T6_Search_by_partial_name_separated_by_space_operator" key="{21C1156B-1C71-4F11-8D19-EA53B8FE0060}" path="KT_T6_Search_by_partial_name_separated_by_space_operator.js" />
+					<child name="KT_T7_Search_a_patient_by_DOB_in_MM_DD_YYYY" key="{537DD2E9-E8E2-4475-B25D-663BE8ABA45C}" path="KT_T7_Search_a_patient_by_DOB_in_MM_DD_YYYY.js" />
+					<child name="KT_T8_Search_a_patient_by_DOB_in_MM_DD_YYYY" key="{093B5DB5-52D6-46AC-BF7D-939B3216E596}" path="KT_T8_Search_a_patient_by_DOB_in_MM_DD_YYYY.js" />
+					<child name="KT_T9_Search_a_patient_with_Karisma_number_as_identifier" key="{8A14C03C-CB99-4AD3-9044-B267E142D2F0}" path="KT_T9_Search_a_patient_with_Karisma_number_as_identifier.js" />
+					<child name="KT_T49_Search_a_patient_by_phone_number" key="{0661FDA9-A583-4FBD-B449-85D1C6E8A7E3}" path="KT_T49_Search_a_patient_by_phone_number.js" />
+					<child name="KT_T50_Search_a_patient_by_email" key="{A6000CA8-1F85-4292-BB34-3D2A0619BD8E}" path="KT_T50_Search_a_patient_by_email.js" />
+					<child name="KT1_Search_by_comma_separator_Surname_FirstName" key="{BACC1515-1862-4CD9-AC0B-6949FE5C3BFD}" path="KT1_Search_by_comma_separator_Surname_FirstName.js" />
+				</folder>
+				<folder name="EditPatient">
+					<child name="KT_T26_Change_DOB" key="{FCA0D9B3-29B6-43AF-975F-67F9856BAE85}" path="KT_T26_Change_DOB.js" />
+					<child name="KT_T25_Change_First_Name" key="{E953D30A-C941-4372-B6F4-638E384FFE8A}" path="KT_T25_Change_First_Name.js" />
+					<child name="KT_T24_Change_Last_Name" key="{0E0E0B9B-351E-4A03-8C70-E7D9BEF281EF}" path="KT_T24_Change_Last_Name.js" />
+					<child name="KT_T27_Change_Gender" key="{67356F66-26CC-4403-8619-66EBC6BEE6EE}" path="KT_T27_Change_Gender.js" />
+					<child name="KT_T31_Change_one_Allergy" key="{C70E1EA6-00AA-4106-9766-A180CEE18273}" path="KT_T31_Change_one_Allergy.js" />
+					<child name="KT_T29_Change_one_Contact" key="{8F47580A-F03B-4BCB-A83A-64231972BB7D}" path="KT_T29_Change_one_Contact.js" />
+					<child name="KT_T32_Change_one_Next_of_Kin" key="{DE541083-A5C5-4F6F-A85B-811A0117DE43}" path="KT_T32_Change_one_Next_of_Kin.js" />
+					<child name="KT_T28_Change_one_Patient_Identifier" key="{37FE2B05-918A-429C-BD1B-5F196D87EB20}" path="KT_T28_Change_one_Patient_Identifier.js" />
+					<child name="KT_T33_Change_one_or_more_Patient_notes" key="{6A5D9212-8507-4B68-AEF5-15F54B9B60EA}" path="KT_T33_Change_one_or_more_Patient_notes.js" />
+					<child name="KT_T30_Change_one_Address" key="{56AB85D0-2613-44BF-BB31-1A12574A5FFB}" path="KT_T30_Change_one_Address.js" />
+					<child name="KT_T23_Edit_patient_Patient_Deceased" key="{DF4124FD-C47A-4699-ADCC-5615DE250357}" path="KT_T23_Edit_patient_Patient_Deceased.js" />
+				</folder>
+				<folder name="RemovePatient">
+					<child name="KT_T38_Remove_one_Condition" key="{93595556-661A-481E-9411-5C4DEF0A9397}" path="KT_T38_Remove_one_Condition.js" />
+					<child name="KT_T39_Remove_one_Allergy" key="{1161B5C0-CD85-4F02-B1AB-E9300E8C43DD}" path="KT_T39_Remove_one_Allergy.js" />
+					<child name="KT_T37_Remove_Health_Fund_details" key="{71048B6C-4E21-4F31-9E24-E985535182EE}" path="KT_T37_Remove_Health_Fund_details.js" />
+					<child name="KT_T36_Remove_one_Address" key="{2F09D854-2931-45E1-8673-4FF3453841A4}" path="KT_T36_Remove_one_Address.js" />
+					<child name="KT_T35_Remove_one_Contact" key="{21205F5C-D179-4C24-A30D-20A67EA81AAD}" path="KT_T35_Remove_one_Contact.js" />
+					<child name="KT_T34_Remove_one_Patient_Identifier" key="{45305CF6-D366-4251-B3F3-5FF456F6FD8F}" path="KT_T34_Remove_one_Patient_Identifier.js" />
+					<child name="KT_T40_Remove_one_Next_of_Kin" key="{5992537D-EF1D-436C-A880-6FC8ED71D7E5}" path="KT_T40_Remove_one_Next_of_Kin.js" />
+				</folder>
+				<folder name="DeletePatient">
+					<child name="KT_T41_Delete_the_newly_created_patient" key="{D7B62CE7-B7B6-407D-98D4-59C871C3EF87}" path="KT_T41_Delete_the_newly_created_patient.js" />
+					<child name="KT_T42_Search_any_existing_patient_and_delete" key="{C0F706A1-CC49-4501-9CD7-C4CF5314BB80}" path="KT_T42_Search_any_existing_patient_and_delete.js" />
+				</folder>
+				<folder name="Utilities">
+					<folder name="Application_Functions">
+						<child name="GlobalConstants" key="{6C92C949-7C09-416A-9A5F-92CE57F3EF16}" path="GlobalConstants.js" />
+						<child name="LaunchApplication" key="{7D3A26DB-89F7-40D2-81CD-0A785286D0E6}" path="LaunchApplication.js" />
+					</folder>
+					<folder name="Framework_Functions">
+						<child name="DataDriver" key="{7EE49E8F-6AA4-4BDE-A542-D155C55A5863}" path="DataDriver.js" />
+						<child name="WaitUtils" key="{09A954C0-587F-4964-AFF1-0FD3083F5B46}" path="WaitUtils.js" />
+						<child name="VerificationUtils" key="{7594036A-E0D9-4BEE-8F9C-3A238760F79C}" path="VerificationUtils.js" />
+						<child name="DataGenerator" key="{BC744C80-9EF1-42F1-8267-457837C884B1}" path="DataGenerator.js" />
+						<child name="ZephyrUtils" key="{75C536A6-F0F1-4EA7-87CC-FF03DCFF1458}" path="ZephyrUtils.js" />
+						<child name="NameGenerator" key="{AC850373-E5DF-4F61-93DD-FA9F63DDAD79}" path="NameGenerator.js" />
+						<child name="ActionUtils" key="{898064A0-3F11-42F0-9516-E75543A1E678}" path="ActionUtils.js" />
+					</folder>
+				</folder>
+				<folder name="Zephyr_Demo">
+					<child name="KT_T11_Add__patient__including__a_General_Note_Demo" key="{9DFE0D92-E64F-46D2-A535-F8D2B6DB7775}" path="KT_T11_Add__patient__including__a_General_Note_Demo.js" />
+					<child name="KT_T50_Search_a_patient_by_email_Demo" key="{B885F0BA-1825-46C2-9326-91D000EFAB6A}" path="KT_T50_Search_a_patient_by_email_Demo.js" />
+					<child name="KT_T12_Add_patient_using_Insert_Note_template_Demo" key="{16847F66-C052-41DE-A7B8-18ED56E1D521}" path="KT_T12_Add_patient_using_Insert_Note_template_Demo.js" />
+				</folder>
+				<folder name="PatientHistory">
+					<child name="KT_T43_View_patient_history_from_patient_jacket" key="{0B486CCD-BF1E-491F-8312-C549D6A7C9FA}" path="KT_T43_View_patient_history_from_patient_jacket.js" />
+					<child name="KT_T44_Verify_history_of_changes_to_patient" key="{4E7FBA2C-5EB7-4EFE-95EF-B7BDDAE92516}" path="KT_T44_Verify_history_of_changes_to_patient.js" />
+				</folder>
+				<folder name="ReceiveRequest">
+					<child name="KT_T45_Receive_and_save_a_new_request" key="{C6E9050F-E4E3-4560-B799-F104713A4EA3}" path="KT_T45_Receive_and_save_a_new_request.js" />
+				</folder>
+				<folder name="RegisterRequest">
+					<child name="KT_T59_Register_a_request" key="{D103D379-2D0C-4BB2-93D9-13B1B94B2642}" path="KT_T59_Register_a_request.js" />
+					<child name="KT_T60_Add_a_private_request" key="{7BD51C24-D825-4490-9186-DA51EFBE2F50}" path="KT_T60_Add_a_private_request.js" />
+					<child name="KT_T61_Add_a_bulk_bill_request" key="{7100ACDB-F36C-4528-890D-F61F0230A69E}" path="KT_T61_Add_a_bulk_bill_request.js" />
+					<child name="KT_T62_Register_request_by_adding_notes" key="{AB6E4FE6-3FD5-48CC-A7E5-B9879D7572D8}" path="KT_T62_Register_request_by_adding_notes.js" />
+					<child name="KT_T63_Register_using_request_conditions" key="{A5DAA9C8-0305-48CA-BDED-1D3C522FBE75}" path="KT_T63_Register_using_request_conditions.js" />
+					<child name="KT_T64_Register_request_using_multiple_Recipients" key="{129EA7E1-3709-4FE8-9C4A-F9B3BB3EB0EF}" path="KT_T64_Register_request_using_multiple_Recipients.js" />
+					<child name="KT_T96_Register_request_using_service_UltrasoundModality" key="{BDFCF84B-D753-43D2-94F0-AADAC9BA7750}" path="KT_T96_Register_request_using_service_UltrasoundModality.js" />
+					<child name="KT_T97_Register_request_using_service_CTScanModality" key="{54AD3F82-84E5-4B4E-9476-D8F0451D469F}" path="KT_T97_Register_request_using_service_CTScanModality.js" />
+					<child name="KT_T98_Register_request_using_service_MRIModality" key="{6C4ECAEA-8013-45BE-A935-9740645B5A74}" path="KT_T98_Register_request_using_service_MRIModality.js" />
+					<child name="KT_T99_Register_request_using_service_XRayModality" key="{2B90DB49-E7CE-4459-8A7F-B359757C628B}" path="KT_T99_Register_request_using_service_XRayModality.js" />
+					<child name="KT_T106_Register_request_with_context_Inpatient" key="{B4AF32AF-4405-45F0-9848-A7B4C315FA1F}" path="KT_T106_Register_request_with_context_Inpatient.js" />
+					<child name="KT_T107_Register_request_with_context_Emergency" key="{2D11A49C-F07E-4BCE-A54A-391965A352A0}" path="KT_T107_Register_request_with_context_Emergency.js" />
+					<child name="KT_T65_Verify_the_registered_request_details" key="{20AB492C-8124-4740-B008-02B025D88C2C}" path="KT_T65_Verify_the_registered_request_details.js" />
+					<child name="KT_T111_Request_with_Hospital_and_Ward" key="{C6877231-836D-464A-8980-22F67092D890}" path="KT_T111_Request_with_Hospital_and_Ward.js" />
+					<child name="KT_T95_Request_with_different_worksite_and_financial_site" key="{117B198A-6E14-42A2-89B4-35F8748A0EB8}" path="KT_T95_Request_with_different_worksite_and_financial_site.js" />
+					<child name="KT_T119_Request_with_different_Requesting_unit" key="{7C9B1C40-32B4-4C5B-9D4E-849C9BB8BD88}" path="KT_T119_Request_with_different_Requesting_unit.js" />
+					<child name="KT_T149_Request_with_different_Report_Completion_Priority" key="{3AB04953-A3A2-4634-9DAF-E5679330E461}" path="KT_T149_Request_with_different_Report_Completion_Priority.js" />
+					<child name="KT_T150_Request_with_different_Service_Completion_Priority" key="{1E4A5DE6-E733-456C-9443-86654E130062}" path="KT_T150_Request_with_different_Service_Completion_Priority.js" />
+					<child name="KT_T153_Register_request_with_some_conditions" key="{C48A6DFB-F547-4142-AEF8-7DF4FAFAD305}" path="KT_T153_Register_request_with_some_conditions.js" />
+					<child name="KT_T66_Request_for_patient_with_Medicare_number" key="{F9CD42DC-2441-4EAF-A900-3ABDAE13E85A}" path="KT_T66_Request_for_patient_with_Medicare_number.js" />
+					<child name="KT_T67_Error_For_request_without_Medicare_number" key="{C45F6BAE-D874-4A4E-99A8-1031E6761810}" path="KT_T67_Error_For_request_without_Medicare_number.js" />
+				</folder>
+				<folder name="Filtering">
+					<child name="KT_T110_Manage_Custom_Filter_Context_Emergency" key="{7805B3C8-EF00-44D5-B98B-F4AFE4B8F444}" path="KT_T110_Manage_Custom_Filter_Context_Emergency.js" />
+					<child name="KT_T94_Filtering_options" key="{BFEEB6E2-BBF8-4366-B4B4-C9D511F7D0E0}" path="KT_T94_Filtering_options.js" />
+					<child name="KT_T104_Manage_Custom_Filter_show_current_work_site" key="{56A3ADC7-B070-41E9-AF56-55BAFECDDCD4}" path="KT_T104_Manage_Custom_Filter_show_current_work_site.js" />
+					<child name="KT_T105_Manage_Custom_Filter_Dont_show_current_worksite" key="{1036F8A3-8756-4F67-87D6-D4590AF6D38A}" path="KT_T105_Manage_Custom_Filter_Dont_show_current_worksite.js" />
+					<child name="KT_T108_Manage_Custom_Filter_Context_Inpatient" key="{B07FA5C2-1B66-4A37-9397-7418222D2636}" path="KT_T108_Manage_Custom_Filter_Context_Inpatient.js" />
+					<child name="KT_T109_Manage_Custom_Filter_Context_Outpatient" key="{4BF86993-6114-48DB-98C3-8D59D52A645C}" path="KT_T109_Manage_Custom_Filter_Context_Outpatient.js" />
+					<child name="KT_T112_Manage_Custom_Filter_Hospital_Exclude" key="{BE25BC34-12B5-476E-B7AF-C49C52708CB9}" path="KT_T112_Manage_Custom_Filter_Hospital_Exclude.js" />
+					<child name="KT_T113_Manage_Custom_Filter_Hospital_Only_Show" key="{AE4DC6A5-C956-48E8-8963-46137538090D}" path="KT_T113_Manage_Custom_Filter_Hospital_Only_Show.js" />
+					<child name="KT_T114_Manage_Custom_Filter_Ward_Exclude" key="{13704E76-D3FC-40E1-B1DB-50A439D7BF6C}" path="KT_T114_Manage_Custom_Filter_Ward_Exclude.js" />
+					<child name="KT_T100_Filter_using_work_Site" key="{7585D8F8-3776-4C58-8E74-23DD99B051F4}" path="KT_T100_Filter_using_work_Site.js" />
+					<child name="KT_T116_Manage_Custom_Filter_Worksite_Only_Show" key="{E1D7019E-6F8C-468E-961B-8CBCAC5C9663}" path="KT_T116_Manage_Custom_Filter_Worksite_Only_Show.js" />
+					<child name="KT_T117_Manage_Custom_Filter_Work_Site_Exclude" key="{D518C618-F925-4A06-858D-F05598B7FEED}" path="KT_T117_Manage_Custom_Filter_Work_Site_Exclude.js" />
+					<child name="KT_T118_Manage_Custom_Filter_Requestingunit_Only_Show" key="{3C355340-F6F1-4C33-AECC-9239FABCDD28}" path="KT_T118_Manage_Custom_Filter_Requestingunit_Only_Show.js" />
+					<child name="KT_T120_Manage_Custom_Filter_Requestingunit_Exclude" key="{1DF47496-151B-42BD-A612-7396410F3D12}" path="KT_T120_Manage_Custom_Filter_Requestingunit_Exclude.js" />
+					<child name="KT_T115_Manage_Custom_Filter_Ward_Only_Show" key="{F26B909E-1EA9-482F-82AE-BE467E250C97}" path="KT_T115_Manage_Custom_Filter_Ward_Only_Show.js" />
+				</folder>
+			</folder>
+			<folder name="PreconditionTestScript">
+				<child name="RegisterRequest" key="{B4A0F7B3-34FC-4E90-88DA-EF5BFDE5E22F}" path="RegisterRequest.js" />
+				<child name="Filtering" key="{A1E76B74-BD5F-46D6-9B2C-7D967049B249}" path="Filtering.js" />
+			</folder>
+		</folder>
+	</children>
+</Root>

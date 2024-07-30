@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5306710185"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EB659C1C-2AAA-4ABB-9442-AE91B7B6ECBA}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\KT_T66_Request_for_patient_with_Medicare_number]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_12_44 PM_09_976\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5335794907"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F9ABFCF3-0DFA-4DB9-9425-36917B476542}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\KT_T66_Request_for_patient_with_Medicare_number]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_12_48 PM_21_268\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5539182407"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6AB0217F-0236-465D-954B-FF810DF28BCD}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [PG_Request_Jacket_Functions\verifyRegisteredFieldsPopulatedForMedicareNumber]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_1_17 PM_38_536\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5602372801"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{67325618-F2DD-4E78-A9B4-FE1CD77E73D5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_1_26 PM_44_501\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5659684491"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2714B7D4-7EC7-40A5-A5C2-56B63C2FC0BA}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_1_34 PM_59_674\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5668025347"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C00917AB-2D00-4AF8-95FB-629316F338F1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_1_36 PM_11_739\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.568290463"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6CA67FFB-0DEA-4ECF-BE8C-FFA028B2603D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\KT_T66_Request_for_patient_with_Medicare_number]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_1_38 PM_20_296\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5914218634"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{831DA083-2BAA-4FDE-AA72-7120C86D3BF9}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_11 PM_38_849\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5937456944"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6E76F2FA-95DE-4A62-AE76-C48D85FCE601}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_14 PM_59_628\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5970262963"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D4312808-A62A-439E-BE38-8C127B5BD010}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_19 PM_43_72\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5988290972"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9A6C6425-1DFD-4899-B93B-AD86F0978E01}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_22 PM_18_834\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.5996000116"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{291986BD-81DD-466A-BA99-F7EFBCAA0F11}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_23 PM_25_441\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6001315278"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{069DC687-1CC8-49D1-8773-8438A0273D7E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_24 PM_11_364\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6010068866"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5858E0C0-A6A6-4383-A249-9F78DDDA0801}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_25 PM_26_995\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.604197662"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A0080037-4189-4EA8-9D3F-D8AB698F7158}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\validatePopupText]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_30 PM_02_678\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6068638889"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BA0E0A48-E92B-41AF-BEDE-4FC4F230FA9A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\validatePopupText]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_33 PM_53_40\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.607905706"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EBF2A55C-6237-46EB-8C2F-57212401CE72}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\validatePopupText]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_35 PM_23_53\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6082596412"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{54E55962-7D03-440A-8E22-00497D2D0F1E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\validatePopupText]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_35 PM_53_633\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6174069329"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{055275EF-4FC0-4993-A700-5EA3DF02CB9E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\validatePopupText]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_49 PM_03_959\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6187508796"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B8B31727-294E-4795-9CB4-E36859B5A19D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\validatePopupText]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_51 PM_00_76\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6230467708"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{36064BBE-5569-40B7-A9F5-5C9502521829}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\validateErrorMessageOnRequestIssueReportPOPUp1]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_2_57 PM_11_241\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0021">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6282870718"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3C6A534C-69A2-4D91-898F-F3CE17A5006D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\validateTextUsingOCRCheckText]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_04 PM_44_3\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0022">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6287967824"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EAE9F3ED-18F4-4325-8129-97D9AB04321A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\validateTextUsingOCRCheckText]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_05 PM_28_42\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0023">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6309728241"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2C1DBBEF-A4FE-45E9-97DA-3E2CFEBE5502}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\testing]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_08 PM_36_52\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0024">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6313869329"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2060B6AE-14B0-4A35-A492-602FB7E69B1E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\testing]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_09 PM_11_831\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0025">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6316996644"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{10F9D1DB-812A-4A87-9178-3D5FDC2B32F5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\testing]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_09 PM_38_851\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0026">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6387192708"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{68ECE7CF-7DD4-42D6-AE95-02DB80228DC0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_19 PM_45_345\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0027">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6391609375"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{818348F1-941D-4C52-B864-4F4B0C4DF3EE}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_20 PM_23_505\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0028">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6402847454"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B9C745F2-F75D-4F9A-BCA5-BB3B907342C0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T66_Request_for_patient_with_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_22 PM_00_602\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0029">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.642825"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1E15916E-B9E0-4116-8B3F-4981D6A02E24}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T67_Error_For_request_without_Medicare_number\KT_T67_Error_For_request_without_Medicare_number]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_25 PM_40_80\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0030">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6521826505"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A7739557-CB63-4789-8A0A-54F3894D9273}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T67_Error_For_request_without_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_39 PM_08_581\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0031">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6531518634"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D0CE2D7E-9C13-4269-893B-E64F4A9A6B5B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T67_Error_For_request_without_Medicare_number\KT_T67_Error_For_request_without_Medicare_number]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_40 PM_32_321\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0032">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6641124537"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8E80517B-02C1-434B-86CD-CAF444C2E521}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [PG_Patient_Request_Functions\clickOnCloseButton]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_56 PM_19_316\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0033">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6652435301"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9EEC8CCE-6272-4132-A251-2E67B128E164}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [PG_Patient_Request_Functions\clickOnCloseButton1]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_57 PM_57_41\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0034">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6660445139"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{14724777-C4E0-4887-8051-A52E811D6329}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [PG_Patient_Request_Functions\clickOnCloseButton]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_59 PM_06_246\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0035">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.666475162"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DB98EA3F-C80E-4DDA-AEF2-4AEB6F22D07D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [PG_Patient_Request_Functions\clickOnCloseButton]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_3_59 PM_43_454\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0036">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6668734954"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{92C58EE6-7EE7-4EDE-82EE-244ED2CB6162}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [PG_Patient_Request_Functions\clickOnCloseButton]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_4_00 PM_17_870\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0037">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6683553009"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{242DCE90-3018-449E-ADDA-FB6785E80EC1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T67_Error_For_request_without_Medicare_number\test]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_4_02 PM_25_898\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0038">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45503.6687456944"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{91634E63-E246-45EA-A36E-EACC18439F0D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [KT_T67_Error_For_request_without_Medicare_number\KT_T67_Error_For_request_without_Medicare_number]"/>
+				<Prp name="relpath" type="S" value="30-07-2024_4_02 PM_59_628\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

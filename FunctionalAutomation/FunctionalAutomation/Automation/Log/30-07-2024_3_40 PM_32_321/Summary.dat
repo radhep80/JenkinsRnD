@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The window is disabled. The action cannot be executed."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45503.6532561921"/>
+						<Prp name="name" type="S" value="KT-T67_Error_For_request_without_Medicare_number"/>
+						<Prp name="durationwithoutchildren" type="I" value="119219"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEYAOAA3AEEARQA2ADQALQA3ADEARABGAC0ANABDADcANQAtADkANgA2AEYALQBDADEARQA0ADcAMwAxADkAMwBDAEYARAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwMAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="119219"/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="45503.6532561921"/>
+				<Prp name="name" type="S" value="Automation"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="119219"/>
+			</Node>
+		</Node>
+		<Prp name="stop" type="D" value="45503.6546371181"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="host" type="S" value="RADHESHYAMP-W11"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="name" type="S" value="FunctionalAutomation"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="user" type="S" value="radheshyamp"/>
+		<Prp name="key" type="S" value="{B86CF206-9110-4F39-B9D4-EB68E284C508}"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="KT_T67_Error_For_request_without_Medicare_number"/>
+		<Prp name="starttime" type="D" value="45503.6531689005"/>
+	</Node>
+</Nodes>

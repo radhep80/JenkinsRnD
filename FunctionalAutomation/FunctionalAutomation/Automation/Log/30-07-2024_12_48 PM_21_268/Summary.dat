@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="KT-T66_Request_for_patient_with_Medicare_number"/>
+						<Prp name="durationwithoutchildren" type="I" value="128797"/>
+						<Prp name="starttime" type="D" value="45503.5336713773"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADUANgAyADYAMQBCAEYALQA4ADkAQgA0AC0ANAA1AEIANwAtAEEAMAAyADUALQA3AEEANAA5ADYAOAAxADcAOAA1ADcAOQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwQAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="128797"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="Automation"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45503.5336713773"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="128797"/>
+			</Node>
+		</Node>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="45503.5351634954"/>
+		<Prp name="testname" type="S" value="KT_T66_Request_for_patient_with_Medicare_number"/>
+		<Prp name="starttime" type="D" value="45503.5335863194"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="host" type="S" value="RADHESHYAMP-W11"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="name" type="S" value="FunctionalAutomation"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{60531C52-4EFC-4E3D-A938-C58C843AC1EC}"/>
+		<Prp name="user" type="S" value="radheshyamp"/>
+		<Prp name="failedtests" type="I" value="0"/>
+	</Node>
+</Nodes>

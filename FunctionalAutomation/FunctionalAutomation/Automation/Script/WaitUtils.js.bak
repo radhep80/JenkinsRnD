@@ -1,0 +1,38 @@
+﻿
+var globalConstants = require("GlobalConstants");
+function waitforKarismaMainWindow()
+{
+  
+  var process;
+  process = Sys.Process("KarismaClient");
+  var childName=  process.WaitChild("WPFObject(\"HwndSource: WpfWindow\", \"Karisma\", 1)",globalConstants.longTimeout);
+  while(!childName.Exists)
+  {
+     Delay(globalConstants.mediumTimeout);
+  }
+
+}
+module.exports.waitforKarismaMainWindow=waitforKarismaMainWindow;
+
+function waitforScreen(handle_Parent,screenName,timeout)
+{
+  
+    var childScreen=  handle_Parent.WaitChild(screenName,timeout);
+    while(!childScreen.Exists)
+    {
+        Delay(timeout);
+    }
+    return childScreen;
+
+}
+module.exports.waitforScreen=waitforScreen;
+
+function waitforControl(handle_Parent,propertyName,propertyValue,depth,timeout)
+{
+    var childScreen=  handle_Parent.FindChildEx(propertyName,propertyValue,depth,true,timeout);
+    if(childScreen.Exists)
+      return childScreen
+    else
+      return null;  
+}
+module.exports.waitforControl = waitforControl;
